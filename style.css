@@ -1,0 +1,94 @@
+/* CSS Variables */
+:root {
+  --primary: #388E3C;
+  --shadow: 0 1px 4px rgba(104, 104, 104, 0.8)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: grid;
+}
+
+img {
+  max-width: 100vh;
+}
+
+a {
+ text-decoration: none;
+ color: white;
+ text-transform: uppercase;
+}
+
+/* Nav Bar */
+.main-nav ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  background: var(--primary);
+  list-style: none;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.main-nav a:hover {
+  color: black;
+}
+
+header {
+  background-image: url(img/jacks.jpg);
+  background-size: cover;
+  min-height: 900px;
+  font-size: 1.8rem;
+}
+
+header a {
+  padding: 20px 100px;
+  background-color: var(--primary);
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 0;
+}
+
+header h1 {
+  color: white;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+  margin-bottom: 0;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.8rem;
+}
+
+
+section {
+  padding: 10px 20px;
+  font-size: 1.3rem;
+}
+
+.text-box {
+  border-style: solid;
+  margin: 40px 250px;
+}
+
+.image {
+  margin: 0px 250px;
+  background-image: url(img/the-hills.jpg);
+  background-size: cover;
+  min-height: 900px;
+}
+
+footer {
+  padding: 20px 250px;
+  background: var(--primary);
+  color: white;
+  font-size: 1.1rem;
+}
